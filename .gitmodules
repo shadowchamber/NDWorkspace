@@ -64,3 +64,6 @@
 [submodule "Templates/DevTemplates"]
 	path = Templates/DevTemplates
 	url = https://github.com/shadowchamber/DevTemplates.git
+[submodule "Modules/SShNetD365FOWrp"]
+	path = Modules/SShNetD365FOWrp
+	url = https://github.com/shadowchamber/SShNetD365FOWrp.git
