@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FC65038C-1B2F-41E1-A629-BED71D161FFF}") = "NDinject (ISV) [NDinject]", "Modules\NDinject\Projects\NDinject\NDinject.rnrproj", "{66C8636F-5B46-4908-AE26-755A82D0DDD4}"
+EndProject
+Project("{FC65038C-1B2F-41E1-A629-BED71D161FFF}") = "NDinjectTests (ISV) [NDinjectTests]", "Modules\NDinjectTests\Projects\NDinjectTests\NDinjectTests.rnrproj", "{162BD65E-B4EA-496E-B46A-D33FFB36A004}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18FF67D2-4DD9-4458-8FC1-198492BE81B4} = {18FF67D2-4DD9-4458-8FC1-198492BE81B4}
+		{66C8636F-5B46-4908-AE26-755A82D0DDD4} = {66C8636F-5B46-4908-AE26-755A82D0DDD4}
+	EndProjectSection
+EndProject
+Project("{FC65038C-1B2F-41E1-A629-BED71D161FFF}") = "NDinjectExamples (ISV) [NDinjectExamples]", "Modules\NDinjectExamples\Projects\NDinjectExamples\NDinjectExamples.rnrproj", "{18FF67D2-4DD9-4458-8FC1-198492BE81B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66C8636F-5B46-4908-AE26-755A82D0DDD4} = {66C8636F-5B46-4908-AE26-755A82D0DDD4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C8636F-5B46-4908-AE26-755A82D0DDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C8636F-5B46-4908-AE26-755A82D0DDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162BD65E-B4EA-496E-B46A-D33FFB36A004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162BD65E-B4EA-496E-B46A-D33FFB36A004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FF67D2-4DD9-4458-8FC1-198492BE81B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FF67D2-4DD9-4458-8FC1-198492BE81B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EC3A32-96EB-4799-8326-B8EC46CD40AB}
+	EndGlobalSection
+EndGlobal
