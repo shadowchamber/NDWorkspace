@@ -1,0 +1,66 @@
+[submodule "BPRules/NDBPRules"]
+	path = BPRules/NDBPRules
+	url = https://github.com/shadowchamber/NDBPRules.git
+[submodule "Snippets/D365Snippets"]
+	path = Snippets/D365Snippets
+	url = https://github.com/shadowchamber/D365Snippets.git
+[submodule "Modules/NDQuery"]
+	path = Modules/NDQuery
+	url = https://github.com/shadowchamber/NDQuery.git
+[submodule "Modules/NDinject"]
+	path = Modules/NDinject
+	url = https://github.com/shadowchamber/NDinject.git
+[submodule "Modules/NDMock"]
+	path = Modules/NDMock
+	url = https://github.com/shadowchamber/NDMock.git
+[submodule "Snippets/TSQLSnippets"]
+	path = Snippets/TSQLSnippets
+	url = https://github.com/shadowchamber/TSQLSnippets.git
+[submodule "Templates/D365Templates"]
+	path = Templates/D365Templates
+	url = https://github.com/shadowchamber/D365Templates.git
+[submodule "Modules/NDMockTests"]
+	path = Modules/NDMockTests
+	url = https://github.com/shadowchamber/NDMockTests.git
+[submodule "Modules/NDMockExamples"]
+	path = Modules/NDMockExamples
+	url = https://github.com/shadowchamber/NDMockExamples.git
+[submodule "Modules/NDinjectTests"]
+	path = Modules/NDinjectTests
+	url = https://github.com/shadowchamber/NDinjectTests.git
+[submodule "Modules/NDinjectExamples"]
+	path = Modules/NDinjectExamples
+	url = https://github.com/shadowchamber/NDinjectExamples.git
+[submodule "Modules/WHSRFAux"]
+	path = Modules/WHSRFAux
+	url = https://github.com/shadowchamber/WHSRFAux.git
+[submodule "Modules/ApplicationSuiteExtAux"]
+	path = Modules/ApplicationSuiteExtAux
+	url = https://github.com/shadowchamber/ApplicationSuiteExtAux.git
+[submodule "Modules/ApplicationPlatformAux"]
+	path = Modules/ApplicationPlatformAux
+	url = https://github.com/shadowchamber/ApplicationPlatformAux.git
+[submodule "Modules/ApplicationSuiteExt"]
+	path = Modules/ApplicationSuiteExt
+	url = https://github.com/shadowchamber/ApplicationSuiteExt.git
+[submodule "Modules/WHSServicesAux"]
+	path = Modules/WHSServicesAux
+	url = https://github.com/shadowchamber/WHSServicesAux.git
+[submodule "Modules/BusinessEventsAux"]
+	path = Modules/BusinessEventsAux
+	url = https://github.com/shadowchamber/BusinessEventsAux.git
+[submodule "Modules/JSONNetD365Wrp"]
+	path = Modules/JSONNetD365Wrp
+	url = https://github.com/shadowchamber/JSONNetD365Wrp.git
+[submodule "Modules/ApplicationSuiteAux"]
+	path = Modules/ApplicationSuiteAux
+	url = https://github.com/shadowchamber/ApplicationSuiteAux.git
+[submodule "Modules/DirectoryAux"]
+	path = Modules/DirectoryAux
+	url = https://github.com/shadowchamber/DirectoryAux.git
+[submodule "Modules/ApplicationFoundationAux"]
+	path = Modules/ApplicationFoundationAux
+	url = https://github.com/shadowchamber/ApplicationFoundationAux.git
+[submodule "Templates/DevTemplates"]
+	path = Templates/DevTemplates
+	url = https://github.com/shadowchamber/DevTemplates.git
