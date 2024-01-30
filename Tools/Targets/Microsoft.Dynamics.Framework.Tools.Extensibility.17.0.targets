@@ -1,0 +1,43 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+      <DynamicsVSToolsHintPath>$(DynamicsVSTools)</DynamicsVSToolsHintPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Core.17.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.Core.17.0.dll</HintPath>
+    </Reference>
+      <Reference Include="Microsoft.Dynamics.Framework.Tools.Extensibility.17.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.Extensibility.17.0.dll</HintPath>
+    </Reference>
+      <Reference Include="Microsoft.Dynamics.Framework.Tools.MetaModel.Core.17.0">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.MetaModel.Core.17.0.dll</HintPath>
+    </Reference>
+	<Reference Include="Microsoft.Dynamics.Framework.Tools.AutomationObjects.17.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.AutomationObjects.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Configuration.17.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.Configuration.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Integration, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="'$(DynamicsVSToolsHintPath)' != ''">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.Framework.Tools.Integration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Core">
+      <SpecificVersion>false</SpecificVersion>
+      <Private>False</Private>
+      <HintPath Condition="Exists('$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.AX.Metadata.Core.dll')">$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.AX.Metadata.Core.dll</HintPath>
+      <HintPath Condition="!Exists('$(DynamicsVSToolsHintPath)\Microsoft.Dynamics.AX.Metadata.Core.dll')">$(PkgMicrosoft_Dynamics_AX_Metadata_Core)\lib\net40\Microsoft.Dynamics.AX.Metadata.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
